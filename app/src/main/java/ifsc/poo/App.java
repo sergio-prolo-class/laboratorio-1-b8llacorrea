@@ -9,9 +9,6 @@ package ifsc.poo;
 
 public class App {
 
-
-
-
     public static void main(String[] args) {
 
         // Objetos lampada - ver estados
@@ -20,6 +17,8 @@ public class App {
 
         System.out.println("O abajur " + "está " + abajur.verEstado() + " e a lampada 2 " + lamp2 + " está " + lamp2.verEstado());
 
+        // classe Pessoa
+        Pessoa alice
 
 
 

@@ -4,11 +4,13 @@ public class Pessoa {
 
     private String nome;
     private int idade;
+    private int totalCriados;
 
-    // construtores diferentes.
+    // construtores diferentes
     public Pessoa(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
+        totalCriados++;
     }
 
     // pessoa - nome
@@ -40,5 +42,9 @@ public class Pessoa {
 
     public void felizAniversario() {
         idade = idade + 1;
+    }
+
+    public Pessoa() {
+        totalCriados++; // A Classe guarda quantos produtos foram criados
     }
 }
