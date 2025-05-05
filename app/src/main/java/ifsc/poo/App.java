@@ -18,7 +18,7 @@ public class App {
         System.out.println("O abajur " + "está " + abajur.verEstado() + " e a lampada 2 " + lamp2 + " está " + lamp2.verEstado());
 
         // classe Pessoa
-        Pessoa alice
+        // Pessoa alice
 
 
 
