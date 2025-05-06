@@ -18,7 +18,12 @@ public class App {
         System.out.println("O abajur " + "está " + abajur.verEstado() + " e a lampada 2 " + lamp2 + " está " + lamp2.verEstado());
 
         // classe Pessoa
-        // Pessoa alice
+        Pessoa p1 = new Pessoa("Alice", 22);
+        Pessoa p2 = new Pessoa("Bruno", 25);
+        for (int i = 0; i < 3; i++) p2.felizAniversario();
+        System.out.println(p2.getIdade());
+        System.out.println(Pessoa.getNumPessoas());
+
 
 
 
