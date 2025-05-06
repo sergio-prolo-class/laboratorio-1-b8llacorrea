@@ -5,17 +5,34 @@ package ifsc.poo;
 public class Retangulo {
 
     // Crie um retângulo que possua formas de calcular sua área e perímetro.
+    
     private float largura;
     private float altura;
 
-
-    public void setAltura(float altura) {
+    // Construtores
+    public Retangulo(float largura, float altura) {
+        this.largura = largura;
         this.altura = altura;
     }
 
-    public void setLargura(float largura) {
-        this.largura = largura;
+    public void setAltura(float altura) {
+        if (altura > 0) {
+            this.altura = altura;
+        }
     }
 
-   
+    public void setLargura(float largura) {
+        if (largura > 0) {
+            this.largura = largura;
+        }
+    }
+
+    public float getArea() {
+        return largura * altura;
+    }
+
+    public float getPerimetro() {
+        return 2 * (altura + largura);
+    }
+
 }
